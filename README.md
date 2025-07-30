@@ -4,7 +4,7 @@ A clean and focused productivity timer built using **React** and wrapped as a na
 
 ## Purpose
 
-This app helps you use the **Pomodoro Technique** to structure your work into focused sessions and breaks — now available both as a **web app** and a **desktop app**.
+This app uses the **Pomodoro Technique** to structure work into focused sessions and breaks — now available both as a **web app** and a **desktop app**.
 
 ## Tech Stack
 
@@ -88,7 +88,7 @@ npm install --save-dev electron-builder
 ```
 npm run dist
 ```
-Your app will be in dist/FocusFlow.dmg
+App will be in dist/FocusFlow.dmg
 
 ## Features
 
