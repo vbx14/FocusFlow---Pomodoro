@@ -1,0 +1,28 @@
+
+{
+  "name": "focusflow-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+  "appId": "com.focusflow.app",
+  "productName": "FocusFlow",
+  "mac": {
+    "target": "dmg",
+    "category": "public.app-category.productivity"
+  },
+  "files": [
+    "main.js",
+    "index.html",
+    "bundle.js",
+    "node_modules/**/*",
+    "package.json"
+  ]
+},
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0"
+  }
+}

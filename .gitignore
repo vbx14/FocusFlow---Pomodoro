@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+.DS_Store
+# Electron builds
+focusflow-electron-app/FocusFlow-*/
+focusflow-electron-app/dist/
+*.dmg
+focusflow-electron-app/FocusFlow-darwin-x64/
+focusflow-electron-app/FocusFlow-darwin-x64/
