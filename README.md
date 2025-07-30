@@ -106,10 +106,10 @@ Host focusflow-cra-app-full/build/ on Netlify, Vercel or GitHub Pages
 
 Check releases
 
+## ScreenShots
+
+![FocusFlow APP](https://github.com/vbx14/FocusFlow---Pomodoro/blob/f88606acbf150c53861d4973f62de7f1bd1e7367/screenshots/Screenshot%202025-07-30%20at%2011.55.15%E2%80%AFPM.png)
+
 ## Future Enhancements
 
 Automating releases using GitHub Actions
-
-## ScreenShots
-
-
