@@ -68,9 +68,9 @@ export default function PomodoroTimer() {
         </button>
       </div>
 
-      {/* 🔊 Alarm audio element */}
+      {/* Alarm audio element */}
       <audio ref={alarmRef}>
-        <source src="alarm.mp3" type="audio/mpeg" />
+       <source src={`${process.env.PUBLIC_URL}/alarm.mp3`} type="audio/mpeg" />
       </audio>
     </div>
   );

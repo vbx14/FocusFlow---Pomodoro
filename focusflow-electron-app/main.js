@@ -1,4 +1,3 @@
-
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
@@ -7,12 +6,15 @@ function createWindow () {
     width: 400,
     height: 600,
     webPreferences: {
-      nodeIntegration: false
+      nodeIntegration: false,
+      autoplayPolicy: 'no-user-gesture-required'
     }
   });
 
   win.loadFile('index.html');
 }
+
+app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
 
 app.whenReady().then(() => {
   createWindow();
@@ -25,3 +27,4 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
 });
+
