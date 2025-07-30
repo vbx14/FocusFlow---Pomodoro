@@ -14,6 +14,7 @@ This app helps you use the **Pomodoro Technique** to structure your work into fo
 
 ## Project Structure
 
+```
 focusflow-project/
 ├── focusflow-cra-app-full/ # React frontend app
 │ ├── public/
@@ -29,6 +30,7 @@ focusflow-project/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## How to Run (React Web Version)
 
