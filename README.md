@@ -91,6 +91,7 @@ npm run dist
 Your app will be in dist/FocusFlow.dmg
 
 ## Features
+
 - 25-minute Pomodoro timer (customizable)
 - Pause/Resume and Reset buttons
 - Alarm sound on completion
@@ -98,6 +99,17 @@ Your app will be in dist/FocusFlow.dmg
 - Cross-browser compatible web app
 
 ## Deployment
+
 Host focusflow-cra-app-full/build/ on Netlify, Vercel or GitHub Pages
 
 ## Download FocusFlow App (macOS)
+
+Check releases
+
+## Future Enhancements
+
+Automating releases using GitHub Actions
+
+## ScreenShots
+
+
